@@ -1,0 +1,144 @@
+header
+    {
+    background-color: rgb(248, 164, 68);
+    color: rgb(0, 0, 0);
+    padding: 10px 0px 10px 0px;
+    width: 90%;
+    margin: auto;
+    border-radius: 5px;
+    }
+
+header h1
+    {
+    margin-left: 20px;
+    }
+
+nav ul
+    {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    background-color: burlywood;
+    padding: 10px;
+    }
+
+nav ul li
+    {
+    margin: 0 10px;
+    }
+
+nav ul li a
+    {
+    color: #333;
+    text-decoration: none;
+    }
+
+main section
+    {
+    margin: 20px;
+    padding: 20px;
+    border: 1px;
+    }
+
+main
+    {
+    width: 90%;
+    margin: auto;
+    }
+
+body
+    {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image:url(konoha.jpg);
+    background-size: contain;
+    background-attachment: fixed;
+    }
+
+#secaoOrigem
+    {
+    background-image:url(backgroundN.jpg);
+    background-position: center;
+    color: black;    
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-align: justify; 
+    }
+
+#secaoShippuden
+    {
+    background-image:url(N2.jpg);
+    background-position: center;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-align: justify;
+    height: 100%;
+    }
+
+.img
+    {
+    width: 25%;
+    border-radius: 100px;
+    transition: 2s;
+    }
+
+.img:hover
+    {
+    width: 35%;
+    }
+
+#secaoOrigem img
+    {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    }
+
+#secaoPersonagens
+    {
+    background-image:url(N4.jpg);
+    background-position: center;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: auto;
+    border-radius: 5px;
+    text-align: justify;
+    }
+
+#secaoClássico
+    {
+    background-image:url(N3.jpg);
+    background-position: center;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-align: justify;
+    }
+
+footer
+    {
+    background-color: black;
+    color: white;
+    padding: 10px 0px 10px 0px;
+    width: 90%;
+    margin: auto;
+    border-radius: 5px;  
+    margin-top: 10px; 
+    }
+
+footer p
+    {
+    text-align: center;
+    font-weight: bold;  
+    }
+    
+.container
+    {
+    padding: 20px;
+    box-shadow: 0px 0px 20px rgb(255, 153, 0);
+    }
